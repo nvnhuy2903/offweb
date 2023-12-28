@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<head >
+    <style>
+        h1 {
+        text-align:center;
+        color:green;
+        }
+        h2 {
+            color: red;
+        }
+        .none {
+        text-decoration: none;
+        font-size:20px;
+}
+        body{
+            background-image: url("https://images.unsplash.com/photo-1703210466493-994109aec84f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        img{
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        form {
+  /* Start the vibrate animation with duration 0.5 seconds */
+         /* zoom: 1.25; */
+         color:yellow;
+  /* When the animation is finished, start again */
+     
+}
+        button{
+            color: blueviolet;
+            
+        }
+      
+    img:hover {
+    animation: vibrate 0.5s linear infinite;
+}
+  
+/*Using keyframes for shaking an image*/
+        @keyframes vibrate {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-1deg); }
+  20% { transform: rotate(1deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(1deg); }
+  50% { transform: rotate(-1deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-1deg); }
+  80% { transform: rotate(1deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-1deg); }
+}
+
+    </style>
+    <h1>MY WEB</h1>
+</head>
+<body >
+    
+    <div  action="https://www.google.com/">
+         <button style="cursor: pointer;" onclick="">Google</button>
+    </div>
+<h1> <a href="https://www.youtube.com/">
+        VÔ YOUTUBE
+    </a></h1>
+<p> 
+    Vui vẻ
+</p>
+<img src="chu-ky-ten-h-bill-smith-demo-ttf.jpeg" >
+</p>
+<form id="oke">
+    Tài khoản:
+    <input type="text" id="taikhoan" value>
+</p>
+    Mật khẩu:
+    <input type="password" id="matkhau" value>
+
+    <button style="cursor: pointer;" onclick="ft()">Gửi</button>
+</form>
+</p>
+<button style="cursor: pointer;" onclick="k2()">Quit</button>
+<card><audio controls >
+    <source src="Yours-RaidenChanYeolEXOLeeHiChangmo-6277417.mp3">
+    Trình duyệt của bạn không hỗ trợ phần tử  audio.
+    </audio></card>
+</p>
+<video controls width="50%" height="400" >
+   <source src="njk.mkv">
+   
+</video>
+<table bgcolor="yellow" border="2" width="100%">
+    <tr>
+        <td >
+            Minh
+        </td>
+        <td>
+            nam
+        </td>
+        <td>
+            19
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Hồng
+        </td>
+        <td>
+            nữ
+        </td>
+        <td>
+            20
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="text" width="33%">
+  
+        </td>
+        <td>
+            <input type="text" width="33%">
+        </td>
+        <td>
+            <input type="text" width="33%">
+        </td>
+        <h1>
+            li
+        </h1>
+    </tr>
+    <a href="www"></a>
+<a href="w"></a>
+</table>
+<div class="demo"></div>
+<iframe 
+width="798" 
+height="499" 
+src="https://www.youtube.com/embed/g4GBGAo_riE?list=PLd8OdiciAE1SwMCtd6XgYp-ei1or6sb1r" 
+title="[Chương 1] Bài 5: Các thẻ HTML cơ bản phần 2" 
+frameborder="50" 
+
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+allowfullscreen></iframe>
+
+<h2><nav>
+    A 
+</nav>
+<nav>
+    B
+</nav>
+<ol>
+    <li>a</li>
+    <li>b</li>
+    <li>cd</li>
+    <li>e</li>
+    <li>f</li>
+</ol>
+</h2>
+</body>
+<script>
+    var ft=function(){
+    var a=document.getElementById("taikhoan").value 
+    var aa=document.getElementById("matkhau").value 
+    localStorage.tk=a
+    localStorage.mk=aa
+    document.getElementById("oke").reset;
+    
+    }
+
+    var k2=function(){
+    var x=window.confirm("Quit?")
+    if (x)
+     window.alert("Bye")
+    else
+     window.alert("Ok")
+    }
+</script>
+ </script>
+<footer>
+    NVNH
+</footer>
